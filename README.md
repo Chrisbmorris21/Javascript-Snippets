@@ -1,7 +1,8 @@
-**problem: Find the missing number in the array
-**e.g 1,2,3,_,5,6,7,9 Should return 4
-**If there is no gap in the sequence, return the next id that teh record can occupy,
-**e.g. 1,2,3,4,5,6,7,8,9, Should return 10
+## Finding gap in sequence array ##
+**problem: Find the missing number in the array**
+**e.g 1,2,3,_,5,6,7,9 Should return 4**
+**If there is no gap in the sequence, return the next id that thh record can occupy,**
+**e.g. 1,2,3,4,5,6,7,8,9, Should return 10**
 
 
 ```javascript
