@@ -26,11 +26,21 @@ get nextAvailableID() {
 
 ```
 
+This next code snippet declares a class which takes an array. It returns specific values from this array. 
+In this case, I have only two getters, one gets the earliest available missing number in a sequence, the other gets the
+next number available at the end of the sorted ID lists.
+
+**problem: Find the missing number in the array
+**e.g 1,2,3,_,5,6,7,9 Should return 4
+
+
 ```javascript
     class data {
         constructor(arrayData){
             this.rawArray = arrayData;
         }
+        
+        
         get idArray() {
             let idArray = [];
             arrayData.map((record) => {
@@ -38,6 +48,7 @@ get nextAvailableID() {
             })
             return idArray;
         }
+        
         get nextAvailableID() {
             let biggest = 0;
             
